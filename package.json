@@ -1,0 +1,25 @@
+{
+  "name": "bobby-2024",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind:serve": "npx tailwindcss -i bobby-2024.css -o _site/bobby-2024.css --watch",
+    "tailwind:build": "npx tailwindcss -i bobby-2024.css -o _site/bobby-2024.css",
+    "eleventy:build": "npx @11ty/eleventy",
+    "eleventy:serve": "npx @11ty/eleventy --serve",
+    "build": "npm run eleventy:build && npm run tailwind:build",
+    "serve": "concurrently \"npm run eleventy:serve\" \"npm run tailwind:serve\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@tailwindcss/typography": "^0.5.9",
+    "nunjucks": "^3.2.4",
+    "tailwindcss": "^3.3.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.1.0"
+  }
+}
