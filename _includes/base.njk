@@ -19,9 +19,34 @@
         <script src="https://kit.fontawesome.com/ca71f43bc2.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="flex min-h-screen flex-col">
-            <div class="flex-1 mb-12"> {% block content %}{% endblock %}
-                </div>
-            </div>
-        </body>
-    </html>
+        <nav class="flex py-4">
+            <div class="container mx-auto px-3 md:px-12 max-w-screen-lg">
+                <ul class="flex items-center flex-col md:flex-row">
+                    <li class="mx-6">
+                        <a class="no-underline hover:underline" href="/">
+                            <img height="64" width="64" src="/static/logo.svg"/>
+                        </a>
+                    </li>
+                    <li class="mx-6 mb-4">
+                        <a class="no-underline hover:underline text-xl" href="/">
+                            PLATFORM
+                        </a>
+                    </li>
+                    <li class="mx-6 mb-4">
+                        <a class="no-underline hover:underline text-xl" href="/">
+                            DONATE
+                        </a>
+                    </li>
+                    <li class="mx-6 mb-4">
+                        <a class="no-underline hover:underline text-xl" href="/">
+                            VOLUNTEER
+                        </a>
+                    </li>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html></nav><div class="flex min-h-screen flex-col">
+<div class="flex-1 mb-12"> {% block content %}{% endblock %}
+    </div>
+</div></body></html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 513.38 671.74">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #db1414;
+      }
+
+      .cls-2 {
+        fill: #027a0e;
+        font-family: JostItalic-BoldItalic, Jost;
+        font-size: 560.26px;
+        font-style: italic;
+        font-variation-settings: 'wght' 700;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-1" points="448.53 34.02 360.8 546.02 425.66 546.02 513.38 34.12 448.53 34.02"/>
+  <text class="cls-2" transform="translate(0 476.21)"><tspan x="0" y="0">B</tspan></text>
+</svg>
