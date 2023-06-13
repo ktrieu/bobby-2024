@@ -1,21 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 513.38 671.74">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #db1414;
-      }
-
-      .cls-2 {
-        fill: #027a0e;
-        font-family: JostItalic-BoldItalic, Jost;
-        font-size: 560.26px;
-        font-style: italic;
-        font-variation-settings: 'wght' 700;
-        font-weight: 700;
-      }
-    </style>
-  </defs>
-  <polygon class="cls-1" points="448.53 34.02 360.8 546.02 425.66 546.02 513.38 34.12 448.53 34.02"/>
-  <text class="cls-2" transform="translate(0 476.21)"><tspan x="0" y="0">B</tspan></text>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;fill:#3300D3;}
+	.st2{fill:#DB1414;}
+	.st3{fill:#027A0E;}
+</style>
+<g class="st0">
+	<rect y="0" class="st1" width="512" height="512"/>
+</g>
+<g>
+	<polygon class="st2" points="447.15,0 359.43,512 424.29,512 512,0.1 	"/>
+</g>
+<g>
+	<path class="st3" d="M140.8,215.66h59.39c10.09,0,19.33-1.68,27.73-5.04c8.4-3.36,15.5-8.21,21.29-14.57
+		c5.79-6.35,9.24-14.01,10.37-22.97c2.61-12.69,0-22.5-7.84-29.41c-7.84-6.91-18.87-10.36-33.06-10.36h-38.66L137.44,378.7h43.7
+		c11.95-0.37,23.15-2.24,33.62-5.6c10.45-3.36,19.33-8.77,26.61-16.25c7.28-7.47,11.85-16.99,13.73-28.57
+		c1.86-10.83,0.56-19.7-3.92-26.61c-4.48-6.91-11.02-11.95-19.61-15.13c-8.6-3.17-18.3-4.76-29.13-4.76H129.6l8.96-51.54H217
+		c17.55,0,34.74,2.15,51.54,6.44c16.81,4.3,31.74,11.02,44.82,20.17c13.07,9.16,22.97,20.73,29.69,34.74
+		c6.72,14.01,8.77,30.73,6.16,50.14c-3.74,25.77-13.45,46.88-29.13,63.31c-15.69,16.44-35.29,28.39-58.83,35.86
+		c-23.53,7.48-49.12,11.21-76.76,11.21H31.55L98.78,59.91h137.82c17.55,0,34.18,2.06,49.86,6.16c15.69,4.11,29.41,10.28,41.18,18.49
+		c11.77,8.22,20.45,18.58,26.05,31.09c5.6,12.52,7.09,27.17,4.48,43.98c-2.99,22.04-11.86,40.15-26.61,54.34
+		c-14.76,14.2-32.87,24.84-54.35,31.93c-21.48,7.1-44.36,10.65-68.63,10.65h-75.07L140.8,215.66z"/>
+</g>
 </svg>
