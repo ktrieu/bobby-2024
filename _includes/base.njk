@@ -18,6 +18,7 @@
         <meta property="og:description" content="Bobby for President 2024"/>
         <meta property="og:image" content="/static/og_image.png"/>
         <script src="https://kit.fontawesome.com/ca71f43bc2.js" crossorigin="anonymous"></script>
+        {% block scripts %}{% endblock %}
     </head>
     <body>
         <div class="flex min-h-screen flex-col">
@@ -35,7 +36,7 @@
                             </a>
                         </li>
                         <li class="mx-6 mb-4 md:mb-0">
-                            <a class="no-underline hover:underline text-xl" href="/">
+                            <a class="no-underline hover:underline text-xl" href="/donate">
                                 DONATE
                             </a>
                         </li>

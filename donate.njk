@@ -1,0 +1,63 @@
+{% extends 'base.njk' %}
+{% set page_title = 'Donate' %}
+{% block scripts %}
+    <script src="/static/scripts/donate.js"/>
+{% endblock %}
+{% block content %}
+    <div class="container mx-auto px-3 md:px-12 max-w-screen-lg text-lg">
+        <div class="mb-16">
+            <h1 class="text-6xl md:text-9xl mt-12 border-secondary border-b-4">Donate</h1>
+            <p class="text-xl">With your financial support, President Bobby will make sure Americans across the nation will hear his
+                message, whether they like it or not. Fill out the form below to donate:
+            </p>
+        </div>
+        <div class="border-secondary border-2 p-6 rounded">
+            <form id="payment-form">
+                <label for="payment-method">Select your payment method</label>
+                <select id="payment-method" class="block border-black border-2 rounded mb-6">
+                    <option value="placeholder">Select</option>
+                    <option value="mastercard">Mastercard</option>
+                    <option value="visa">Visa</option>
+                    <option value="amex">American Express</option>
+                    <option value="paypal">PayPal</option>
+                    <option value="bobbypay">BobbyPay™</option>
+                </select>
+                <p id="payment-method-error" hidden="hidden">Unfortunately, we cannot accept payments from this method.</p>
+                <div id="payment-info" hidden="hidden">
+                    <label for="bobby-number">BobbyPay™ Bobby Identification Number (BIN)</label>
+                    <input
+                        class="block border-black border-2 rounded mb-6 px-2"
+                        minlength="29"
+                        maxlength="29"
+                        size="29"
+                        required="required"
+                        id="bobby-number"/>
+                    <label for="bobby-pin">BobbyPay™ Bobby Identification Number Verification PIN (BIN-V-PIN)</label>
+                    <input
+                        class="block border-black border-2 rounded mb-6 px-2"
+                        minlength="4"
+                        maxlength="4"
+                        size="4"
+                        required="required"
+                        id="bobby-pin"/>
+                    <label for="code-word">BobbyPay™ Second Factor Avocado (2FA)</label>
+                    <select id="code-word" class="block border-black border-2 rounded mb-6">
+                        <option value="hass">Hass</option>
+                        <option value="bacon">Bacon</option>
+                        <option value="fuerte">Fuerte</option>
+                        <option value="gem">Gem</option>
+                        <option value="gwen">Gwen</option>
+                        <option value="lambhass">Lambhass</option>
+                        <option value="pinkerton">Pinkerton</option>
+                        <option value="reed">Reed</option>
+                        <option value="zutano">Zutano</option>
+                    </select>
+                    <button id="submit" class="border-black border-2 rounded px-3 py-1 mb-3">Submit</button>
+                    <p id="payment-method-error" hidden="hidden">Unfortunately, we cannot accept payments from this method.</p>
+                    <p id="submit-error" class="text-secondary" hidden>Sorry, your BobbyPay™ details were incorrect. Visit your local
+                        BobbyPay™ branch for more info.</p>
+                </div>
+            </form>
+        </div>
+    </div>
+{% endblock %}
