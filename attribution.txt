@@ -1,0 +1,7 @@
+Platform:
+- Poverty: https://unsplash.com/photos/yZygONrUBe8
+- Crime: https://unsplash.com/photos/7mqsZsE6FaU
+- War: https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Rat_cage_trap_3y08.JPG/1280px-Rat_cage_trap_3y08.JPG'
+- Fear: https://unsplash.com/photos/VZILDYoqn_U
+- Division: https://unsplash.com/photos/5fPA8j4pcTY
+- Wa-Bobby: https://commons.wikimedia.org/wiki/File:MQ-1_Predator_unmanned_aircraft.jpg
