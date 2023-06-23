@@ -1,0 +1,31 @@
+{% extends 'base.njk' %}
+{% set page_title = 'Volunteer' %}
+{% block scripts %}
+    <script src="/static/scripts/volunteer.js"/>
+{% endblock %}
+{% block content %}
+    <div class="container mx-auto px-3 md:px-12 max-w-screen-lg text-lg">
+        <div class="mb-16">
+            <h1 class="text-6xl md:text-9xl mt-12 border-secondary border-b-4">Volunteer</h1>
+            <p class="text-xl">President Bobby can't take over America alone. He needs your help to knock on, and down, every door
+                in the country.
+            </p>
+        </div>
+        <h1 class="border-secondary border-b-4">If you volunteer for Bobby 2024, you will:</h1>
+        <ul class="list-disc list-inside mb-6">
+            <li>Watch as people in
+                <i>your</i>
+                neighborhood pretend to listen to you.</li>
+            <li>Gain valuable transferable skills like explaining Bobby's platform, holding signs for Bobby, and conducting covert
+                sabotage missions against rival candidates.</li>
+            <li>Get a chance to meet
+                <i>the</i>
+                President Bobby.</li>
+            <li>Attend President's Bobby election night celebration at UGO Tower in American Samoa, which may or not be an amazing
+                night, depending on how hard you work.</li>
+        </ul>
+        <h1 class="border-secondary border-b-4">Click on a state to sign up:</h1>
+        <object class="mb-3" data="/static/us_map.svg" type="image/svg+xml" id="state-map"></object>
+        <p id="volunteer-message" class="text-center" hidden="hidden"></p>
+    </div>
+{% endblock %}
